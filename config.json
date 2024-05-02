@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "root",
+    "password": "Morchmiami56",
+    "database": "bestbetdb",
+    "host": "localhost",
+    "dialect": "mysql",
+    "port": "3306"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "host": "127.0.0.1",
+    "database": "database_test",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "vevpwwaybqat66vp",
+    "password": "s5lfcwmln0i58i3l",
+    "host": "m60mxazb4g6sb4nn.chr7pe7iynqr.eu-west-1.rds.amazonaws.com",
+    "database": "u7gpim5n5ouso5qv",
+    "dialect": "mysql"
+  }
+}
