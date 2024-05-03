@@ -23,11 +23,11 @@ app.listen(puerto, () => {
 app.use(express.json());
 app.use(cors());
 app.use(myConnection(mysql,{
-  host:     'm60mxazb4g6sb4nn.chr7pe7iynqr.eu-west-1.rds.amazonaws.com',
-  user:     'vevpwwaybqat66vp',
-  password: 's5lfcwmln0i58i3l',
+  host:     'bestbet-bd.ct46yw8gklho.eu-west-3.rds.amazonaws.com',
+  user:     'admin',
+  password: 'Morchmiami56',
   port:     '3306',//puerto por defecto
-  database: 'u7gpim5n5ouso5qv'
+  database: 'bestbed_bd'
 },'single'/*de que manera se conecta uno al servidor*/))
 
 
